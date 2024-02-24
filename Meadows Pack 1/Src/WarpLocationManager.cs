@@ -58,7 +58,7 @@ public class WarpLocationManager
             WarpYAMLManager.GetCreatureYamlContent(Meadows_Pack_1Plugin.MWL_Ruins7_CreatureYaml_Config.Value),
             Meadows_Pack_1Plugin.MWL_Ruins7_CreatureList_Config.Value, 
             3, 
-            WarpYAMLManager.GetCreatureYamlContent(Meadows_Pack_1Plugin.MWL_Ruins8_LootYaml_Config.Value), 
+            WarpYAMLManager.GetLootYamlContent(Meadows_Pack_1Plugin.MWL_Ruins7_LootYaml_Config.Value), 
             Meadows_Pack_1Plugin.MWL_Ruins7_LootList_Config.Value,
             WarpLocationConfigs.MWL_Ruins7_Config);
         AddLocation(assetBundle, 
@@ -66,7 +66,7 @@ public class WarpLocationManager
             WarpYAMLManager.GetCreatureYamlContent(Meadows_Pack_1Plugin.MWL_Ruins8_CreatureYaml_Config.Value),
             Meadows_Pack_1Plugin.MWL_Ruins8_CreatureList_Config.Value, 
             3, 
-            WarpYAMLManager.GetCreatureYamlContent(Meadows_Pack_1Plugin.MWL_Ruins8_LootYaml_Config.Value), 
+            WarpYAMLManager.GetLootYamlContent(Meadows_Pack_1Plugin.MWL_Ruins8_LootYaml_Config.Value), 
             Meadows_Pack_1Plugin.MWL_Ruins8_LootList_Config.Value,
             WarpLocationConfigs.MWL_Ruins8_Config);
         AddLocation(assetBundle, 

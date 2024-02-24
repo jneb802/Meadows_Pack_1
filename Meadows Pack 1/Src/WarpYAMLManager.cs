@@ -26,16 +26,17 @@ public class WarpYAMLManager
     public static void ParseCustomYamls()
     { 
         var customCreatureListYamLFilePath = Path.Combine(Paths.ConfigPath, "warpalicious.More_World_Locations_CreatureLists.yml");
-        customCreatureYamlContent = File.ReadAllText(customCreatureListYamLFilePath);
-        if (customCreatureYamlContent != null)
+        
+        if (File.Exists(customCreatureListYamLFilePath))
         {
+            customCreatureYamlContent = File.ReadAllText(customCreatureListYamLFilePath);
             WarpLogger.Logger.LogInfo("Successfully loaded warpalicious.More_World_Locations_CreatureLists.yml file from BepinEx config folder");
         }
         
         var customLootListYamLFilePath = Path.Combine(Paths.ConfigPath, "warpalicious.More_World_Locations_LootLists.yml");
-        customlootYamlContent = File.ReadAllText(customLootListYamLFilePath);
-        if (customlootYamlContent != null)
+        if (File.Exists(customLootListYamLFilePath))
         {
+            customlootYamlContent = File.ReadAllText(customLootListYamLFilePath);
             WarpLogger.Logger.LogInfo("Successfully loaded warpalicious.More_World_Locations_LootLists.yml file from BepinEx config folder");
         }
     }
@@ -47,27 +48,23 @@ public class WarpYAMLManager
         {
             return customCreatureYamlContent;
         }
-        else
-        {
-            return defaultCreatureYamlContent;
-        }
+        
+        return defaultCreatureYamlContent;
     }
     
-    public static string GetLootYamlContent(Meadows_Pack_1Plugin.Toggle useCustommLootYaml)
+    public static string GetLootYamlContent(Meadows_Pack_1Plugin.Toggle useCustomLootYaml)
     {
 
-        if (useCustommLootYaml == Meadows_Pack_1Plugin.Toggle.On)
+        if (useCustomLootYaml == Meadows_Pack_1Plugin.Toggle.On)
         {
-            return defaultCreatureYamlContent;
+            return customlootYamlContent;
         }
-        else
-        {
-            return defaultlootYamlContent;
-        }
+        return defaultlootYamlContent;
+        
     }
     
     
-    public static void ParseCreatureYAML()
+    /*public static void ParseCreatureYAML()
     { 
         if (Meadows_Pack_1Plugin.UseCustomLocationCreatureListYAML.Value ==  Meadows_Pack_1Plugin.Toggle.On)
         {
@@ -93,5 +90,5 @@ public class WarpYAMLManager
         {
             lootYAMLContent = AssetUtils.LoadTextFromResources("warpalicious.MWL_Meadows_Pack_1_LootLists.yml");
         }
-    }
+    }*/
 }

@@ -53,7 +53,7 @@ namespace Meadows_Pack_1
             MWL_Ruins1_LootList_Config = config("1 - MWL_Ruins1", "Name of Loot List", "MeadowsLoot1",
                 "The name of the loot list to use from warpalicious.More_World_Locations_LootLists.yml file");
             
-            MWL_Ruins2_Quantity_Config = config("2 - MWL_Ruins2", "MWL_Ruins2", 10,
+            MWL_Ruins2_Quantity_Config = config("2 - MWL_Ruins2", "Spawn Quantity", 10,
                 "Amount of this location the game will attempt to place during world generation");
             MWL_Ruins2_CreatureYaml_Config = config("2 - MWL_Ruins2", "Use Custom Creature YAML file", Toggle.Off,
                 "When Off, location will spawn default creatures. When On, location will select creatures from list in the warpalicious.More_World_Locations_CreatureLists.yml file in BepinEx config folder");
@@ -64,7 +64,7 @@ namespace Meadows_Pack_1
             MWL_Ruins2_LootList_Config = config("2 - MWL_Ruins2", "Name of Loot List", "MeadowsLoot2",
                 "The name of the loot list to use from warpalicious.More_World_Locations_LootLists.yml file");
             
-            MWL_Ruins3_Quantity_Config = config("3 - MWL_Ruins3", "MWL_Ruins3", 25,
+            MWL_Ruins3_Quantity_Config = config("3 - MWL_Ruins3", "Spawn Quantity", 25,
                 "Amount of this location the game will attempt to place during world generation");
             MWL_Ruins3_CreatureYaml_Config = config("3 - MWL_Ruins3", "Use Custom Creature YAML file", Toggle.Off,
                 "When Off, location will spawn default creatures. When On, location will select creatures from list in the warpalicious.More_World_Locations_CreatureLists.yml file in BepinEx config folder");
@@ -76,7 +76,7 @@ namespace Meadows_Pack_1
                 "The name of the loot list to use from warpalicious.More_World_Locations_LootLists.yml file");
             
             
-            MWL_Ruins6_Quantity_Config = config("4 - MWL_Ruins6", "MWL_Ruins6", 5,
+            MWL_Ruins6_Quantity_Config = config("4 - MWL_Ruins6", "Spawn Quantity", 5,
                 "Amount of this location the game will attempt to place during world generation");
             MWL_Ruins6_CreatureYaml_Config = config("4 - MWL_Ruins6", "Use Custom Creature YAML file", Toggle.Off,
                 "When Off, location will spawn default creatures. When On, location will select creatures from list in the warpalicious.More_World_Locations_CreatureLists.yml file in BepinEx config folder");
@@ -87,7 +87,7 @@ namespace Meadows_Pack_1
             MWL_Ruins6_LootList_Config = config("4 - MWL_Ruins6", "Name of Loot List", "MeadowsLoot3",
                 "The name of the loot list to use from warpalicious.More_World_Locations_LootLists.yml file");
 
-            MWL_Ruins7_Quantity_Config = config("5 - MWL_Ruins7", "MWL_Ruins7", 2,
+            MWL_Ruins7_Quantity_Config = config("5 - MWL_Ruins7", "Spawn Quantity", 2,
                 "Amount of this location the game will attempt to place during world generation");
             MWL_Ruins7_CreatureYaml_Config = config("5 - MWL_Ruins7", "Use Custom Creature YAML file", Toggle.Off,
                 "When Off, location will spawn default creatures. When On, location will select creatures from list in the warpalicious.More_World_Locations_CreatureLists.yml file in BepinEx config folder");
@@ -98,7 +98,7 @@ namespace Meadows_Pack_1
             MWL_Ruins7_LootList_Config = config("5 - MWL_Ruins7", "Name of Loot List", "MeadowsLoot1",
                 "The name of the loot list to use from warpalicious.More_World_Locations_LootLists.yml file");
             
-            MWL_Ruins8_Quantity_Config = config("6 - MWL_Ruins8", "MWL_Ruins8", 5,
+            MWL_Ruins8_Quantity_Config = config("6 - MWL_Ruins8", "Spawn Quantity", 5,
                 "Amount of this location the game will attempt to place during world generation");
             MWL_Ruins8_CreatureYaml_Config = config("6 - MWL_Ruins8", "Use Custom Creature YAML file", Toggle.Off,
                 "When Off, location will spawn default creatures. When On, location will select creatures from list in the warpalicious.More_World_Locations_CreatureLists.yml file in BepinEx config folder");
@@ -109,7 +109,7 @@ namespace Meadows_Pack_1
             MWL_Ruins8_LootList_Config = config("6 - MWL_Ruins8", "Name of Loot List", "MeadowsLoot3",
                 "The name of the loot list to use from warpalicious.More_World_Locations_LootLists.yml file");
 
-            MWL_RuinsArena1_Quantity_Config = config("7 - MWL_RuinsArena1", "MWL_RuinsArena1", 25,
+            MWL_RuinsArena1_Quantity_Config = config("7 - MWL_RuinsArena1", "Spawn Quantity", 25,
                 "Amount of this location the game will attempt to place during world generation");
             MWL_RuinsArena1_CreatureYaml_Config = config("7 - MWL_RuinsArena1", "Use Custom Creature YAML file", Toggle.Off,
                 "When Off, location will spawn default creatures. When On, location will select creatures from list in the warpalicious.More_World_Locations_CreatureLists.yml file in BepinEx config folder");
@@ -120,7 +120,7 @@ namespace Meadows_Pack_1
             MWL_RuinsArena1_LootList_Config = config("7 - MWL_RuinsArena1", "Name of Loot List", "MeadowsLoot3",
                 "The name of the loot list to use from warpalicious.More_World_Locations_LootLists.yml file");
             
-            MWL_RuinsArena3_Quantity_Config = config("8 - MWL_RuinsArena3", "MWL_RuinsArena3", 25,
+            MWL_RuinsArena3_Quantity_Config = config("8 - MWL_RuinsArena3", "Spawn Quantity", 25,
                 "Amount of this location the game will attempt to place during world generation");
             MWL_RuinsArena3_CreatureYaml_Config = config("8 - MWL_RuinsArena3", "Use Custom Creature YAML file", Toggle.Off,
                 "When Off, location will spawn default creatures. When On, location will select creatures from list in the warpalicious.More_World_Locations_CreatureLists.yml file in BepinEx config folder");
@@ -131,7 +131,7 @@ namespace Meadows_Pack_1
             MWL_RuinsArena3_LootList_Config = config("8 - MWL_RuinsArena3", "Name of Loot List", "MeadowsLoot2",
                 "The name of the loot list to use from warpalicious.More_World_Locations_LootLists.yml file");
 
-            MWL_RuinsChurch1_Quantity_Config = config("9 - MWL_RuinsChurch1", "MWL_RuinsChurch1", 25,
+            MWL_RuinsChurch1_Quantity_Config = config("9 - MWL_RuinsChurch1", "Spawn Quantity", 25,
                 "Amount of this location the game will attempt to place during world generation");
             MWL_RuinsChurch1_CreatureYaml_Config = config("9 - MWL_RuinsChurch1", "Use Custom Creature YAML file", Toggle.Off,
                 "When Off, location will spawn default creatures. When On, location will select creatures from list in the warpalicious.More_World_Locations_CreatureLists.yml file in BepinEx config folder");
@@ -142,7 +142,7 @@ namespace Meadows_Pack_1
             MWL_RuinsChurch1_LootList_Config = config("9 - MWL_RuinsChurch1", "Name of Loot List", "MeadowsLoot2",
                 "The name of the loot list to use from warpalicious.More_World_Locations_LootLists.yml file");
             
-            MWL_RuinsWell1_Quantity_Config = config("10 - MWL_RuinsWell1", "MWL_RuinsWell1", 5,
+            MWL_RuinsWell1_Quantity_Config = config("10 - MWL_RuinsWell1", "Spawn Quantity", 5,
                 "Amount of this location the game will attempt to place during world generation");
             MWL_RuinsWell1_CreatureYaml_Config = config("10 - MWL_RuinsWell1", "Use Custom Creature YAML file", Toggle.Off,
                 "When Off, location will spawn default creatures. When On, location will select creatures from list in the warpalicious.More_World_Locations_CreatureLists.yml file in BepinEx config folder");
@@ -153,12 +153,12 @@ namespace Meadows_Pack_1
             MWL_RuinsWell1_LootList_Config = config("10 - MWL_RuinsWell1", "Name of Loot List", "MeadowsLoot1",
                 "The name of the loot list to use from warpalicious.More_World_Locations_LootLists.yml file");
             
-            UseCustomLocationCreatureListYAML = config("2 - Custom Location YAML files",
+            /*UseCustomLocationCreatureListYAML = config("2 - Custom Location YAML files",
                 "Use Custom Location Creature List", Toggle.Off,
                 "When Off, location will spawn default creatures. When On, location will spawn creatures from the warpalicious." + ModName + " file in BepinEx config folder");
             UseCustomLocationLootListYAML = config("2 - Custom Location YAML files",
                 "Use Custom Location Loot List", Toggle.Off,
-                "When Off, location will use default loot. When On, location will use custom loot list from the warpalicious." + ModName + " file in BepinEx config folder");
+                "When Off, location will use default loot. When On, location will use custom loot list from the warpalicious." + ModName + " file in BepinEx config folder");*/
             
             WarpYAMLManager.ParseDefaultYamls();
             WarpYAMLManager.ParseCustomYamls();

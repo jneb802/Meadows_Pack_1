@@ -10,8 +10,6 @@ namespace Meadows_Pack_1;
 
 public class WarpLootManager: MonoBehaviour
 {
-    public static List<string> exteriorLoot;
-    
     public static List<String> CreateLootList(string lootListName, string yamlContent)
     {
         var yaml = new YamlStream();
@@ -22,7 +20,7 @@ public class WarpLootManager: MonoBehaviour
 
         if (mapping.Children.ContainsKey(new YamlScalarNode(lootListName)))
         {
-            WarpLogger.Logger.LogDebug("Found loot list with name " + lootListName + " in loot list YAML file");
+            WarpLogger.Logger.LogDebug("Found loot list with name " + lootListName + " in loot list Yaml file");
             var lootItems = mapping.Children[new YamlScalarNode(lootListName)] as YamlSequenceNode;
             
             foreach (var item in lootItems)
@@ -34,7 +32,7 @@ public class WarpLootManager: MonoBehaviour
         }
         else
         {
-            WarpLogger.Logger.LogError("Failed to find loot list with name: " + lootListName + " in custom loot YAML file");
+            WarpLogger.Logger.LogError("Failed to find loot list with name: " + lootListName + " in loot list Yaml file");
         }
 
         return lootList;

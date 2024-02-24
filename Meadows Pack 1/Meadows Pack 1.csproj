@@ -150,8 +150,6 @@
         <Content Include="UpdateManifest.ps1"/>
         <EmbeddedResource Include="YAML\warpalicious.More_World_Locations_CreatureLists.yml" />
         <EmbeddedResource Include="YAML\warpalicious.More_World_Locations_LootLists.yml" />
-        <EmbeddedResource Include="YAML\warpalicious.MWL_Meadows_Pack_1_Creatures.yml" />
-        <EmbeddedResource Include="YAML\warpalicious.MWL_Meadows_Pack_1_LootLists.yml" />
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="ILRepack.Lib.MSBuild.Task" Version="2.0.18.2"/>
