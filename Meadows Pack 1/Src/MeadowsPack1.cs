@@ -16,6 +16,7 @@ using Paths = BepInEx.Paths;
 namespace Meadows_Pack_1
 {
     [BepInPlugin(ModGUID, ModName, ModVersion)]
+    [BepInDependency(Jotunn.Main.ModGuid)]
     public class Meadows_Pack_1Plugin : BaseUnityPlugin
     {
         internal const string ModName = "Meadows_Pack_1";
@@ -294,8 +295,8 @@ namespace Meadows_Pack_1
             ConfigEntry<T> configEntry = Config.Bind(group, name, value, extendedDescription);
             //var configEntry = Config.Bind(group, name, value, description);
 
-            SyncedConfigEntry<T> syncedConfigEntry = ConfigSync.AddConfigEntry(configEntry);
-            syncedConfigEntry.SynchronizedConfig = synchronizedSetting;
+           //SyncedConfigEntry<T> syncedConfigEntry = ConfigSync.AddConfigEntry(configEntry);
+           //syncedConfigEntry.SynchronizedConfig = synchronizedSetting;
 
             return configEntry;
         }

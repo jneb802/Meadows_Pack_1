@@ -51,7 +51,7 @@ public class WarpLootManager: MonoBehaviour
                 WarpLogger.Logger.LogDebug("Container found in " + location + "with name: " + container.name);
             }
         }
-
+        
         return locationContainers;
     }
     
